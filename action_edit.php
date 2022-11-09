@@ -2,6 +2,12 @@
 include("config.php");
 include("firebaseRDB.php");
 
+echo '
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert-dev.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">';
+
+
 $db = new firebaseRDB($databaseURL);
 $id = $_POST['id'];
 $update = $db->update("tabledata", $id, [
@@ -22,7 +28,7 @@ if ($update){
                 }, function() {
                     window.location = "index.php";
                 });
-              }, 1350);
+              });
           </script>';
             }else{ 
    
@@ -37,6 +43,6 @@ if ($update){
                            }, function() {
                                window.location = "edit.php";
                            });
-                         }, 1350);
+                         });
                      </script>';
                         }

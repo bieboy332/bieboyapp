@@ -26,7 +26,7 @@ echo '<script>
              }, function() {
                  window.location = "index.php";
              });
-           }, 1350);
+           });
        </script>';
          }else{ 
 
@@ -41,6 +41,6 @@ echo '<script>
                         }, function() {
                             window.location = "add.php";
                         });
-                      }, 1350);
+                      });
                   </script>';
                      }

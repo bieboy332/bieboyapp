@@ -20,7 +20,7 @@ if($id != ""){
                    }, function() {
                        window.location = "index.php";
                    });
-                 }, 1350);
+                 });
              </script>';
                }else{ 
       
@@ -35,7 +35,7 @@ if($id != ""){
                               }, function() {
                                   window.location = "delete.php";
                               });
-                            }, 1350);
+                            });
                         </script>';
                            
 }

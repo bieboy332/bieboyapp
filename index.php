@@ -16,7 +16,7 @@ $db = new firebaseRDB($databaseURL);
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>ບັນທຶກທຸລະກຳ </title>
-    <!-- <link rel="stylesheet" href="assets/css/bootstrap.min.css"> -->
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="assets/css/datatables.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
         <!-- font  -->
@@ -89,7 +89,7 @@ $db = new firebaseRDB($databaseURL);
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/datatables.min.js"></script> 
+    <!-- <script src="assets/js/datatables.min.js"></script>  -->
     <script src="assets/js/pdfmake.min.js"></script>
     <script src="assets/js/vfs_fonts.js"></script>
     <script src="assets/js/custom.js"></script>
